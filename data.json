@@ -1,0 +1,45 @@
+{
+  "forests":[
+		{
+			"Name": "Cherokee National Forest",
+			"Image": "cherokee.jpg",
+			"Description": "Located in the Southern Appalachian Mountains of east Tennessee, the Cherokee National Forest is divided into northern and southern sections by the Great Smoky Mountains National Park.  The 650,000-acre forest is the largest tract of public land in Tennessee and adjoins other national forests in Virginia, North Carolina and Georgia."
+		},
+		{
+			"Name": "Sam Houston National Forest",
+			"Image": "samHouston.jpg",
+			"Description": "The Sam Houston National Forest, one of four National Forests in Texas, is located 50 miles north of Houston. The forest contains 163, 037 acres between Huntsville, Conroe, Cleveland and Richards, Texas. With land in Montgomery, Walker, and San Jacinto counties, the Sam Houston National Forest is intermingled with privately owned timber lands and small farms."
+		},
+		{
+			"Name": "Davy Crockett National Forest",
+			"Image": "davyCrockett.jpg",
+			"Description": "The Davy Crockett National Forest, named for the legendary pioneer, contains more than 160,000 acres of East Texas woodlands, streams, recreation areas, and wildlife habitat. Located in Houston and Trinity Counties, the forest is centrally located within the Neches and Trinity River basins. The Davy Crockett National Forest was proclaimed a National Forest by President Franklin Roosevelt on October 15, 1936."
+		},
+		{
+			"Name": "Black Hills National Forest",
+			"Image": "blackHills.jpg",
+			"Description": "The Black Hills, in western South Dakota and northeastern Wyoming, consists of 1.2 million acres of forested hills and mountains, approximately 110 miles long and 70 miles wide."
+		},
+		{
+			"Name": "Allegheny National Forest",
+			"Image": "allegheny.jpg",
+			"Description": "Established in 1923, Allegheny National Forest (ANF) is Pennsylvania’s only National Forest. Situated in the foothills of the Appalachian mountains, the ANF is composed of plateau tops with elevations up to approximately 2,300 feet and valleys down to approximately 1,000 feet above sea level. The forest is approximately 517,000 acres and includes land in Elk, Forest, McKean and Warren counties in the northwestern corner of the state."
+		},
+		{
+			"Name": "Willamette National Forest",
+			"Image": "willamette.jpg",
+			"Description": "With over 1.5 million acres, the Willamette National Forest is home to eight wilderness areas, including the popular Three Sisters Wilderness and Mt. Jefferson Wilderness, a variety of backpacking and day hiking opportunities, waterfalls, wildflowers, mountain biking trails, boating, swimming and much more! The varied landscape of high mountains, narrow canyons, cascading streams, and wooded slopes offers excellent opportunities for visitors and make the forest valuable for many purposes."
+		}
+	],
+  "visitors":[
+  		{
+  			"id":""
+  		}
+  	],
+  "visitor_favorites": [
+  		{
+  			"forest":"",
+  			"visitor": ""
+  		}
+  	]
+ }

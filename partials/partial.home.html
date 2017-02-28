@@ -1,0 +1,14 @@
+<div class="card col s4" ng-repeat="forest in forests">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="images/{{forest.Image}}" style="margin-top: 5px">
+  </div>
+  <div class="card-content">
+    <span class="card-title activator grey-text text-darken-4">{{forest.Name}}</span>
+    <a class="waves-effect waves-teal btn-flat right activator">About</a>
+    <a class="waves-effect waves-teal btn-flat left" ng-click="addNewFavorite()">Add to Favorites</a>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4" style="text-align: center">{{forest.Name}}<i class="material-icons right">close</i></span>
+    <p style="text-align: justify">{{forest.Description}}</p>
+  </div>
+</div>

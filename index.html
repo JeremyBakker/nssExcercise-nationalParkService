@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>National Parks</title>
+	<link rel="stylesheet" type="text/css" href="./lib/node_modules/materialize-css/dist/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Amatic+SC" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body ng-app="nationalParksApp" style="background-color:#045723; font-family: 'Amatic SC', cursive;">
+	<h1 style="text-align: center; font-weight: bold">National Parks</h1>
+	<div ng-view class="container row">
+	
+	<!-- Insert Partials --> 
+
+	</div>
+	<div class="fixed-action-btn vertical">
+		<a class="btn-floating btn-large green">
+		<i class="large material-icons">mode_edit</i>
+		</a>
+		<ul>
+			<li><a class="btn-floating btn-medium green" style="font-size: .8em" href="#!/home">Home</a></li>
+			<li><a class="btn-floating green darken-1" style="font-size: .8em" href="#!/favorites">Favorites</a></li>
+			<li ><a class="btn-floating green" style="font-size: .8em" href="#!/logout" ng-click="logout()">Logout</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	</script>
+	<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/firebase/firebase.js"></script>
+
+	<script type="text/javascript" src="app/app.js"></script>
+	
+	<script type="text/javascript" src="./values/firebaseConfig.js"></script>
+	<script type="text/javascript" src="app/factories/factory.authorization.js"></script>
+	<script type="text/javascript" src="app/factories/factory.parks.js"></script>
+
+	<script type="text/javascript" src="app/controllers/controller.login.js"></script>
+	<script type="text/javascript" src="app/controllers/controller.register.js"></script>
+	<script type="text/javascript" src="app/controllers/controller.detail.js"></script>
+	<script type="text/javascript" src="app/controllers/controller.list.js"></script>
+	<script type="text/javascript" src="app/controllers/controller.home.js"></script>
+</body>
+</html>
